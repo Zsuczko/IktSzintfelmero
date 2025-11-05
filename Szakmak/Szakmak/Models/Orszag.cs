@@ -8,6 +8,6 @@ namespace Szakmak.Models
         public string Id { get; set; }
         public string OrszagNev { get; set; }
 
-        public ICollection<Versenyzo> Versenyzok { get; set; }
+        public ICollection<Versenyzo>? Versenyzok { get; set; }
     }
 }

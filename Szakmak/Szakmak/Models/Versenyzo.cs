@@ -11,7 +11,7 @@ namespace Szakmak.Models
         public string OrszagId { get; set; }
         public int Pont { get; set; }
 
-        public Orszag Orszag { get; set; }
-        public Szakma Szakma { get; set; }
+        public Orszag? Orszag { get; set; }
+        public Szakma? Szakma { get; set; }
     }
 }
