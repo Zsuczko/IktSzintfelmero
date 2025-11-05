@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Szakmak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3393a545123e1a2e88556ae5afa618eadc53f34e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Szakmak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Szakmak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
