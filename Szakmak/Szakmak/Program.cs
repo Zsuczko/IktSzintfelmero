@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using Szakmak.Data;
+
 namespace Szakmak
 {
     public class Program
@@ -13,6 +16,7 @@ namespace Szakmak
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddDbContext<SzakmakDbContext>(options => options.UseSqlite("Data source= ./Data/Szakmak.db"));
 
             var app = builder.Build();
 
